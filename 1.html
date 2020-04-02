@@ -8,24 +8,20 @@
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/siderbar.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/siderbar.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Inicio Nav-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">         
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div>
-                <a class="navbar-brand" href="#">
-                  <img src="image/logouni.png" width="100%" height="30%" left alt="">
-                </a>
-              </div>
-              <div class="col-10">
-                <button class="btn btn-primary btn-sm float-right" type="submit"><img src="image/icon.png" alt="Salir">
-                </button>
-              </div>
-            </div>
-          </nav>
-    </header>
+    <div>
+      <nav class="navbar navbar-light bg-dark justify-content-between">
+        <a class="navbar-brand">
+          <img src="image/logouni.png" width="200" height="50"/>
+        </a>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <img src="image/icon.png" alt="Salir">
+          </button>
+      </nav>
+    </div>
     <!-- Fin Nav-->
     <div class="d-flex" id="wrapper">
       <form action="" method="post">  
@@ -91,7 +87,13 @@
     </form>    
     <br>
     <div class="container-fluid">
-      <div role="separator" class="dropdown-divider"></div>
+      <br>
+        <div class="card-proba" id="oculto">
+          <div class="card text-white bg-success">
+              <p class="card-text">datos a mostrar</p>
+          </div>
+        </div>
+        <br>
         <div class="">
           <table class="table">
             <thead class="thead-dark">
