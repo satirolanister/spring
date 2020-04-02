@@ -32,41 +32,59 @@
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
           <div class="sidebar-heading">
-            Filtros 
+            Filtros   
           </div>
           <div class="list-group list-group-flush">
             <a href="#filt_fecha" class="list-group-item list-group-item-action bg-light" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFecha">Fecha</a>
             <div class="collapse" id="filt_fecha">
-              <div class="col-10">
-                <label for="" class=" coll-5">Fecha inicial</label>
+              <br>
+              <div class="col-12">
+                <div>
+                <label for="" class=" coll-12">Fecha inicial</label>
                 <input type="date" name="fecha_inicial" placeholder="Fecha inicial" id="f_ini">
-                <label for="" class=" coll-5">Fecha inicial</label>
+                </div>
+                <br>
+                <div>
+                <label for="" class=" coll-12">Fecha inicial</label>
                 <input type="date" name="fecha_final" placeholder="Fecha final" id="f_fin">
+                </div>
               </div>
-              <div role="separator" class="dropdown-divider"></div>
+              <br>
             </div>
+            <br>
             <a href="#filt_area" class="list-group-item list-group-item-action bg-light" data-toggle="collapse" aria-expanded="false" aria-controls="collapseArea">Areas</a>
               <div class="collapse" id="filt_area">
-                <select class="form-control form-control-sm col-5">
-                  <option id="opA1">Opcion_1</option>
-                  <option id="opA2">Opcion_2</option>
-                  <option id="opA3">Opcion_3</option>
-                  <option id="opA4">Opcion_4</option>
-                </select>
+                <br>
+                <div class="col-10">
+                  <select class="form-control form-control-sm col-12">
+                    <option id="opA1">Opcion_1</option>
+                    <option id="opA2">Opcion_2</option>
+                    <option id="opA3">Opcion_3</option>
+                    <option id="opA4">Opcion_4</option>
+                  </select>
+                </div>
+                <br>
               </div>
+              <br>
             <a href="#filt_satisf" class="list-group-item list-group-item-action bg-light" data-toggle="collapse" aria-expanded="false" aria-controls="collapsesatisf">Nivel de satisfacción</a>
               <div class="collapse" id="filt_satisf">
-                <select class="form-control form-control-sm">
-                  <option id="opS1">Opcion_1</option>
-                  <option id="opS2">Opcion_2</option>
-                  <option id="opS3">Opcion_3</option>
-                  <option id="opS4">Opcion_4</option>
-                </select>
+                <br>
+                <div class="col-12">
+                  <select class="form-control form-control-sm col-12">
+                    <option id="opS1">Opcion_1</option>
+                    <option id="opS2">Opcion_2</option>
+                    <option id="opS3">Opcion_3</option>
+                    <option id="opS4">Opcion_4</option>
+                  </select>
+                </div>
+                <br>
               </div>
-            <div role="separator" class="dropdown-divider"></div>
-            <div class="row justify-content-center">
-                <button type="submit" class="btn btn-success ">enviar</button>
-            </div>  
+            <div>
+              <br>
+              <div class="row justify-content-center">
+              <button type="submit" class="btn btn-success ">enviar</button>
+            </div> 
+            </div> 
           </div>
         </div>
       <!-- Fin sidebar-->
@@ -82,6 +100,7 @@
                 <th scope="col">First</th>
                 <th scope="col">Last</th>
                 <th scope="col">Handle</th>
+                <th scope="col">Espacio</th>
               </tr>
             </thead>
             <tbody>
@@ -90,18 +109,21 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
+                <td>como</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td>@fat</td>
+                <td>Seria</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
                 <td>Larry</td>
                 <td>the Bird</td>
                 <td>@twitter</td>
+                <td>y tal</td>
               </tr>
             </tbody>
           </table>
